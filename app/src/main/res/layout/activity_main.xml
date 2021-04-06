@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffb100">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/one"
+        android:layout_width="315dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:theme="@style/Widget.Design.FloatingActionButton"
+        android:visibility="visible"
+        android:text="1"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ten"
+        android:layout_width="118dp"
+        android:layout_height="94dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="+10"
+        android:theme="@style/Widget.Design.FloatingActionButton"
+        android:visibility="visible"
+
+        />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/count"
+        android:text="0"
+        android:elevation="60dp"
+        android:textSize="90dp"
+        android:textColor="#fff"
+        app:layout_anchor="@id/one"
+        app:layout_anchorGravity="center"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/plus"
+        android:text="+10"
+        android:elevation="20dp"
+        android:textSize="30dp"
+        android:textColor="#FF0000"
+        app:layout_anchor="@id/ten"
+        app:layout_anchorGravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:text="0"
+        android:textSize="70dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:textSize="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="40dp"
+        />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
