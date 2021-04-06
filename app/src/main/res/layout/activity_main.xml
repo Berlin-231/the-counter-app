@@ -65,4 +65,14 @@
         android:layout_marginBottom="40dp"
         />
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:text="Hello!!!" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
