@@ -3,5 +3,5 @@ A simple counter app for all purposes
 
 Easy to use. Just tap the circles!
 
-![alt text](image.jpeg?raw=true)
+![alt text](screen.jpeg?raw=true)
 
